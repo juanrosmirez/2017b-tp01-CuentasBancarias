@@ -16,7 +16,7 @@ public class CuentasBancarias {
 	}
 
 	public int transferirMontoHacia(double monto, CuentasBancarias cuentaDestino) {
-		if(monto<=saldo && estado==true && cuentaDestino.estado==true){
+		if(monto<=saldo && this!=cuentaDestino && estado==true && cuentaDestino.estado==true){
 			cuentaDestino.saldo+=monto;
 			this.saldo-=saldo;
 			return 1;
