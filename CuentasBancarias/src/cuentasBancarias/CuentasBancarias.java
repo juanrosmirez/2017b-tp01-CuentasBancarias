@@ -11,7 +11,10 @@ public class CuentasBancarias {
 	}
 	
 	public CuentasBancarias(double saldo) {
-		this.saldo=saldo;
+		if(saldo<0)
+			this.saldo=0;
+		else
+			this.saldo=saldo;
 		this.estado=true;
 	}
 
