@@ -14,7 +14,7 @@ public class testCuentasBancarias {
 		CuentasBancarias cuentaOrigen = new CuentasBancarias(-50);
 		CuentasBancarias cuentaDestino = new CuentasBancarias(0);
 		
-		assertEquals(1,cuentaOrigen.transferirMontoHacia(15,cuentaDestino)); 
+		assertEquals(1,cuentaOrigen.transferirMontoHacia(-5,cuentaDestino)); 
 	}
 	
 	@Test
