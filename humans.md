@@ -7,5 +7,5 @@
 
 ## Estudiantes
 
-* XXX ([xxx](https://github.com/xxx))
-* XXX ([xxx](https://github.com/xxx))
+* Juan Ignacio Rosmirez ([juanrosmirez](https://github.com/juanrosmirez))
+* Tomas Eugenio Castillo ([tomascastillo](https://github.com/tomascastillo))
