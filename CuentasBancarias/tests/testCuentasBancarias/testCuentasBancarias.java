@@ -16,5 +16,9 @@ public class testCuentasBancarias {
 		
 		assertEquals(1,cuentaOrigen.transferirMontoHacia(15,cuentaDestino)); 
 	}
-
+	@Test
+	public void transfiereAUnaMismaCuenta(){
+		CuentasBancarias cuentaOrigen = new CuentasBancarias(20);
+		assertEquals(0,cuentaOrigen.transferirMontoHacia(15,cuentaOrigen));
+	}
 }
